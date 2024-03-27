@@ -413,4 +413,41 @@ We use forEach to iterate through the elements of the hobbies array and the arra
 We provide a callback function that receives each array element as its argument, along with its index.
 
 Inside the callback functions, we log the properties of each object or the elements of each array to the console.
+*********************************************************************************************************************************
+for in és a for of
+in -> objektum kulcsin iterál végég 
+
+for of -> értékeken iterál végig
+
+for...in loop:
+
+The for...in loop iterates over the enumerable properties of an object, 
+including its own properties and those inherited from its prototype chain.
+
+When used with an object, it iterates over the keys (property names) of the object.
+It's commonly used for iterating over the keys of an object.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Example:
+const obj = { a: 1, b: 2, c: 3 };
+for (const key in obj) {
+  console.log(key); // Outputs: "a", "b", "c"
+}
+
+for...of loop:
+
+The for...of loop is used to iterate over iterable objects, such as arrays, strings, maps, sets, etc.
+
+It iterates over the values of the iterable, rather than the keys.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+It's commonly used for iterating over the values of an array or other iterable objects
+.
+Example:
+
+const arr = [1, 2, 3];
+for (const value of arr) {
+  console.log(value); // Outputs: 1, 2, 3
+}
+
+for...in iterates over the keys of an object.
+for...of iterates over the values of an iterable object.
 */
