@@ -450,4 +450,10 @@ for (const value of arr) {
 
 for...in iterates over the keys of an object.
 for...of iterates over the values of an iterable object.
+
+Amit még használunk, hogy végigmenjünk a kulcsukon az az entries!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Object.entries(obj).forEach(([key, value]) => {
+  console.log(key); // Outputs: "a", "b", "c"
+});
+
 */
